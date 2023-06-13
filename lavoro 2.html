@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iscriviti</title>
+
+    <style>
+        html {
+            text-align: center;
+            background: radial-gradient(circle, rgba(34, 191, 223, 1) 9%, rgba(58, 96, 217, 1) 25%, rgba(37, 138, 231, 1) 50%, rgba(58, 96, 217, 1) 75%, rgba(34, 191, 223, 1) 91%);
+        }
+
+        form {
+            background-color: aqua;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 40%;
+            margin-left: 30%;
+            margin-right: 30%;
+            border: black solid 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>INFORMAZIONI</h1>
+    <form onsubmit="alert('Registrazione inviata !')">
+        <div style="margin-top: 3px; padding-top: 3px;">
+            NOME <input type="text">
+            COGNOME<input type="text">
+        </div>
+        <hr>
+        <div>
+            EMAIL <input type="email">
+            PASSWORD<input type="password">
+        </div>
+        <div style="margin-top: 3PX;">
+            DATA DI NASCITA <input type="date">
+            TELEFONO<input type="number">
+        </div>
+        <hr>
+        SCEGLI I TUOI GENERI PREFERITI
+        <input type="checkbox">metal
+        <input type="checkbox">classica
+        <input type="checkbox">folk
+        <input type="checkbox">pop
+        <input type="checkbox">rock
+        <hr>
+        <div><input type="radio"> ACCETTO I <a href="termini e condizioni.html">TERMINI E LE CONDIZIONI</a></div>
+        <input type="submit"> <input type="reset">
+    </form>
+
+</body>
+
+</html>
